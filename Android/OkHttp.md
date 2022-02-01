@@ -4,15 +4,15 @@
 
 1. 配置HTTP请求的基本信息
 
-```kotlin
-val client = OkHttpClient.Builder()
-    .connectTimeout(10, TimeUnit.SECONDS)//连接超时时间
-    .readTimeout(10, TimeUnit.SECONDS) //读取超时
-    .writeTimeout(10, TimeUnit.SECONDS) //写入超时
-    .build();
-```
+    ```kotlin
+    val client = OkHttpClient.Builder()
+        .connectTimeout(10, TimeUnit.SECONDS)//连接超时时间
+        .readTimeout(10, TimeUnit.SECONDS) //读取超时
+        .writeTimeout(10, TimeUnit.SECONDS) //写入超时
+        .build();
+    ```
 
-2. Get同步请求“
+2. Get同步请求
 
     ```kotlin
     //同步get
