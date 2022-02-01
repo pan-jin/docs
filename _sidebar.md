@@ -1,6 +1,6 @@
 * [GO](GO/)
 * [Android](Android/)
 * [Kotlin](Kotlin/)
-    * [构造函数](Kotlin/构造函数.md)
+  * [构造函数](Kotlin/构造函数.md)
 * [Flutter](Flutter/)
 * [IOS](ios/)
