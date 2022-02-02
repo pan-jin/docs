@@ -1,12 +1,12 @@
-* [GO](GO)
-  * [gin]
-    * [初识Gin](GO/gin/初识gin.md)
-    * [返回Json](GO/gin/返回Json数据.md)
-* [Android](Android)
-  * [Activity]
-    * [Activity传递数据](Android/Activity/Activity传递数据.md)
-  * [HTTP]
-    * [OkHttp](Android/HTTP/OkHttp.md)
+* [GO](GO/)
+  * [gin](GO/gin/)
+    * [初识Gin](初识gin.md)
+    * [返回Json](返回Json数据.md)
+* [Android](Android/)
+  * [Activity](Activity/)
+    * [Activity传递数据](Activity传递数据.md)
+  * [HTTP](HTTP/)
+    * [OkHttp](OkHttp.md)
 * [Kotlin](Kotlin)
   * [构造函数](Kotlin/构造函数.md)
 * [Flutter](Flutter)
