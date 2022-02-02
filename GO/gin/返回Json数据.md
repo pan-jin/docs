@@ -21,8 +21,9 @@ r.GET("/json", func(c *gin.Context) {
 ```go
 type userinfo struct {
     //结构体的属性名称首字母必须大写才可访问
-	Name string
-	Age  int
+    // 如果希望得到的是小写的可以使用tag来定制
+    Name string `json:"name"`
+	Age  int    `json:"age"`
 }
 var zhang = userinfo{"张三", 22}
 r.GET("/userinfo", func(c *gin.Context) {
