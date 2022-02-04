@@ -4,6 +4,7 @@
     * [返回Json](GO/gin/返回Json数据.md)
     * [gin获取参数](GO/gin/gin获取参数.md)
     * [gin参数绑定](GO/gin/gin参数绑定.md)
+    * [文件上传](GO/gin/文件上传.md)
 * [Android](Android/)
   * [基本控件](Android/基本控件.md)
   * [基本布局](Android/基本布局.md)
