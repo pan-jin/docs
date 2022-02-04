@@ -3,6 +3,7 @@
     * [初识Gin](GO/gin/初识gin.md)
     * [返回Json](GO/gin/返回Json数据.md)
     * [gin获取参数](GO/gin/gin获取参数.md)
+    * [gin参数绑定](GO/gin/gin参数绑定.md)
 * [Android](Android/)
   * [基本控件](Android/基本控件.md)
   * [基本布局](Android/基本布局.md)
