@@ -1,4 +1,7 @@
 * [GO](GO/)
+  * [语法](GO/语法/）
+    * [Slice切片](GO/语法/slice.md)
+    * [Map](GO/语法/map.md)
   * [gin](GO/gin/)
     * [初识Gin](GO/gin/初识gin.md)
     * [返回Json](GO/gin/返回Json数据.md)
