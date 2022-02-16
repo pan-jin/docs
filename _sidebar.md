@@ -1,5 +1,5 @@
 * [GO](GO/)
-  * [语法](GO/yufa/）
+  * [Grammer](GO/yufa/）
     * [Slice切片](GO/yufa/slice.md)
     * [Map](GO/yufa/map.md)
   * [gin](GO/gin/)
