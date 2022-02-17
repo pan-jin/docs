@@ -1,5 +1,5 @@
 * [GO](GO/)
-  * [Grammer](GO/yufa/）
+  * [Grammer](GO/yufa/)
     * [Slice切片](GO/yufa/slice.md)
     * [Map](GO/yufa/map.md)
   * [gin](GO/gin/)
@@ -8,6 +8,7 @@
     * [gin获取参数](GO/gin/gin获取参数.md)
     * [gin参数绑定](GO/gin/gin参数绑定.md)
     * [文件上传](GO/gin/文件上传.md)
+    * [database连接数据库](GO/gin/Datebase标准库.md)
 * [Android](Android/)
   * [基本控件](Android/基本控件.md)
   * [基本布局](Android/基本布局.md)
