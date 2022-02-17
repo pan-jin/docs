@@ -8,7 +8,7 @@ var db *sql.DB
 
 //初始化数据库连接
 func initDB() (err error) {
-	dsn := "root:root@tcp(39.105.117.240:3306)/ssm"
+	dsn := "root:pass@tcp(00.000.000.000:3306)/ssm"
 	//去初始化全局的db 变量 不是新声明 所以此时不要用 :=
 	db, err = sql.Open("mysql", dsn) //open并不是真的连接数据库 只是检查传入的参数
 	if err != nil {
