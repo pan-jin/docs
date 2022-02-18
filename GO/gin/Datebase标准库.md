@@ -223,3 +223,62 @@ func prepareDemo() {
 
 ```
 
+
+
+
+
+### 8. 实现MySQL 事务
+
+```go
+//mysql 事务
+func transactionDemo() {
+	//开启事务
+	tx, err := db.Begin()
+	if err != nil {
+		if tx != nil {
+			tx.Rollback() //回滚
+		}
+		fmt.Printf("trans failed %v\n", err)
+		return
+	}
+
+	sqlstr1 := "update user set age=30 where id=?"
+	exec, err := db.Exec(sqlstr1, 1)
+	if err != nil {
+		tx.Rollback() //回滚
+		fmt.Printf("update failed %v\n", err)
+		return
+	}
+
+	affected, err := exec.RowsAffected()
+	if err != nil {
+		fmt.Printf("update failed %d\n", affected)
+
+	}
+
+	sqlstr2 := "update user set age=40 where id=?"
+	result, err := db.Exec(sqlstr2, 2)
+	if err != nil {
+		tx.Rollback() //回滚
+		fmt.Printf("update failed %v\n", err)
+		return
+	}
+
+	rowsAffected, err := result.RowsAffected()
+	if err != nil {
+		fmt.Printf("update failed %d\n", affected)
+
+	}
+
+	if rowsAffected == 1 && affected == 1 {
+		tx.Commit() //提交事务
+	} else {
+		tx.Rollback() //事务回滚
+	}
+
+	fmt.Println("trans success")
+
+}
+
+```
+
