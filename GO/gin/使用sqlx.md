@@ -19,7 +19,7 @@ var db *sqlx.DB
 
 //连接数据库
 func initDB()(err error){
-	dsn := "root:root@tcp(39.105.117.240:3306)/ssm"
+	dsn := "root:root@tcp(127.0.0.1:3306)/ssm"
 	db, err = sqlx.Connect("mysql", dsn)
 	if err != nil {
 		fmt.Printf("connect db failed,err:%v\n",err)
