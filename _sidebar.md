@@ -10,6 +10,7 @@
     * [文件上传](GO/gin/文件上传.md)
     * [database连接数据库](GO/gin/Datebase标准库.md)
     * [zap日志库](GO/gin/zap日志库.md)
+    * [Viper读取配置文件](Go/gin/Viper读取配置文件.md)
 * IOS
   * Swift
     * [常量变量拼接](ios/swift/常量变量拼接.md)
