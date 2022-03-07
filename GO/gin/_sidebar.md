@@ -1,5 +1,5 @@
 
-* [gin](GO/gin/)
+* [gin](gin/)
   * [初识Gin](GO/gin/初识gin.md)
   * [返回Json](GO/gin/返回Json数据.md)
   * [gin获取参数](GO/gin/gin获取参数.md)
