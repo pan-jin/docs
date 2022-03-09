@@ -1,5 +1,9 @@
 # 记账软件
 
+![SWIFTUI](https://img.lazyme.cn/img/SWIFTUI.jpg)
+
+
+
 1.contentView
 
 ```swift
